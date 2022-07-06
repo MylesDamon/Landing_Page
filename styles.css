@@ -1,0 +1,103 @@
+* {
+   
+}
+
+header {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    margin-bottom: -400px;
+}
+
+header .logo {
+    width: auto;
+    height: 20%;
+}
+
+.nav {
+    display: flex;
+    
+}
+
+.nav li {
+    padding: 8px;
+}
+
+.hero {
+    background-color: #036635;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
+    padding: 7em 0;
+}
+
+.hero .left {
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+}
+
+.hero .hero-pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 40%;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: -25px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #036635;
+}
+
+button {
+    border-radius: 10px;
+    padding: .8em 2em;
+    border: none;
+    background-color: white;
+    color: #036635;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: yellowgreen;
+    border-radius: 25px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.one,
+.two,
+.three,
+.four {
+
+}

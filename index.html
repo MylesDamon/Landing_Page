@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <a href="/index.html"><img src="/images/starbees.jpg" alt="Header Logo"></a>
-    <div class="left-links">
-        <ul>
+    <header>
+     <a href="/index.html"><img src="/Landing_Page/images/starbees-removebg-preview.png" class="logo" alt="Header Logo"></a>
+      <nav>
+        <ul class="nav">
             <li><a href="/index.html">
                 header link one
             </a></li>
@@ -20,16 +22,21 @@
                 header link three
             </a></li>
         </ul>
-    </div>
+      </nav>
+    </header>
 
-    <div class="hero">
-        <h2 class="hero-text">This website is awesome</h2>
+      <div class="hero">
+       <div class="left">
+        <h1 class="hero-text">This website is awesome</h1>
         <p class="hero-subtext">This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
         <button>Sign Up</button>
-        <img src="./images/coffee shop.jpg" alt="A picture of the store">
-    </div>
+       </div>
+        <img src="./images/coffee shop.jpg" alt="A picture of the store" class="hero-pic">
+      </div>  
+    
 
     <h3>Our Signature Items</h3>
+<div class="container">
     <div class="one">
         <img src="./images/regular coffee.jpg" alt="Regular Coffee">
         <p>Regular Coffee</p>
@@ -49,7 +56,7 @@
         <img src="./images/Acai bowl.jpg" alt="Acai Bowl">
         <p>Acai Bowl</p>
     </div>
-
+</div>
     <div class="quote">
        <p>"We want to do a lot of stuff; we're not in great shape, we didn't get a good night's sleep, we're a little depressed. Coffee solves all these problems in one delightful little cup."
         Jerry Seinfeld</p>
